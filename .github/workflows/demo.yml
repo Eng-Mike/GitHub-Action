@@ -19,7 +19,7 @@ jobs:
           touch github-action.txt
           ls -la
           echo Hello world 
-          cat README.md
+        
       - name: upload my artifact
         uses: actions/upload-artifact@v4
         with:
