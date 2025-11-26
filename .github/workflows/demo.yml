@@ -18,7 +18,7 @@ jobs:
                  touch github-action.txt
                  ls -la
                  echo "Hello World!"
-                 cat README.md 
+            
             
               
     
