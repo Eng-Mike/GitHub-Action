@@ -1,0 +1,16 @@
+name: demo 2
+on: 
+    push: 
+        branches:
+            - main
+    pull_request:
+        branches: [ main, dev ]
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: checkout repo
+              uses: actions/checkout@v4
+            - name: show system uptime
+              run: uptime
+              run: whoami
